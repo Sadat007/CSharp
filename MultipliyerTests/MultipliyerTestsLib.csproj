@@ -57,12 +57,22 @@
     <Compile Include="MultipliyerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FileConversionTest.cs" />
+    <Compile Include="PurchaseCalculation.cs" />
+    <Compile Include="PurchaseCalculationTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MultipliyerLib\MultipliyerLib.csproj">
       <Project>{1cabca1a-d332-4e09-818d-896d45b75688}</Project>
       <Name>MultipliyerLib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="after.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="before.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

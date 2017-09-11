@@ -14,13 +14,13 @@ namespace MultipliyerTestsLib
             var actual = sut.Simple(20, 20);
             Assert.AreEqual(400, actual);
         }
-        [TestMethod]
-        public void Usingfor()
-        {
-            var sut = new Multipliyer();
-            var actual = sut.Usingfor(20, 20);
-            Assert.AreEqual(400, actual);
-        }
+        //[TestMethod]
+        //public void Usingfor()
+        //{
+        //    var sut = new Multipliyer();
+        //    var actual = sut.Usingfor(20, 20);
+        //    Assert.AreEqual(400, actual);
+        //}
         [TestMethod]
         public void While()
         {
