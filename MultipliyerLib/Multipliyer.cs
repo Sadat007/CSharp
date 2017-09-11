@@ -14,8 +14,9 @@ namespace MultipliyerLib
         }
         public long Usingfor(long left, long right)
         {
-
-            return left * right;
+            for (int a=0;a<5;a++) {
+                return a +=1;
+            }
         }
         public long While(long left, long right)
         {
